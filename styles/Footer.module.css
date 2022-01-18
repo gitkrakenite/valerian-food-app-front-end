@@ -33,3 +33,67 @@
 .motto {
     color: rgb(211, 211, 211);
 }
+
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        height: auto;
+        text-align: center;
+    }
+
+    .item:first-child {
+        display: none;
+    }
+
+    .item:last-child {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 20px;
+        color: #b7903c;
+    }
+      
+    .text {
+        color: lightgray;
+        font-size: 18px;
+    }
+
+    .motto {
+        color: rgb(211, 211, 211);
+        font-size: 26px;
+    }
+    
+}
+
+@media (max-width: 950px) {
+    .container {
+        height: auto;
+        text-align: center;
+    }
+
+    .item:first-child {
+        display: none;
+    }
+
+    .item:last-child {
+        flex-direction: column;
+    }
+
+
+    .title {
+        font-size: 25px;
+        color: #b7903c;
+    }
+      
+    .text {
+        color: lightgray;
+        font-size: 20px;
+    }
+
+    .motto {
+        color: rgb(211, 211, 211);
+        font-size: 27px;
+    }
+}

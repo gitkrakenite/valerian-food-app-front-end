@@ -19,3 +19,38 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
+
+@media (max-width:912px) {
+  .wrapper {
+    text-align: center;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .title {
+    text-align: center;
+  }
+
+  .desc {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 325px) {
+  .title {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .desc {
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+  }
+}
